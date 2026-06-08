@@ -163,7 +163,7 @@ if __name__ == "__main__":
     for _ in range(10):
         print(generate_random_email())
     print("\nRandom emails:")
-    for email in generate_unique_emails(10, domain="gmail.com"): // or domain
+    for email in generate_unique_emails(10, domain="gmail.com"): # or domain
         print(email)
     print("\nTwitter usernames:")
     for username in generate_unique_twitter_usernames(10):
